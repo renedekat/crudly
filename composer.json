@@ -3,8 +3,10 @@
     "type": "library",
     "description": "Laravel helper package to create CRUD controllers, views, models, jobs with 1 command. Vue.js support.",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "renedekat",
+        "crudly",
+	"Laravel",
+	"Vuejs"
     ],
     "homepage": "https://github.com/renedekat/crudly",
     "license": "MIT",
