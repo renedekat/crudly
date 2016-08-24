@@ -1,0 +1,49 @@
+{
+    "name": "renedekat/crudly",
+    "type": "library",
+    "description": "Laravel helper package to create CRUD controllers, views, models, jobs with 1 command. Vue.js support.",
+    "keywords": [
+        ":vendor",
+        ":package_name"
+    ],
+    "homepage": "https://github.com/renedekat/crudly",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rene de Kat",
+            "email": "renedekat@9lives-development.com",
+            "homepage": "http://9lives-development.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.6|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0||~5.0",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "renedekat\\crudly\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "renedekat\\crudly\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "format": "phpcbf --standard=psr2 src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
