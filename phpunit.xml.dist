@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name=":vendor Test Suite">
+        <testsuite name="renedekat/crudly Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
